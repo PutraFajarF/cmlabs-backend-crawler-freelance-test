@@ -78,6 +78,6 @@ After performing the crawling request, the API will generate HTML files for each
 The API will respond with the message "Crawling finished. Results are saved in HTML files." once the crawling process is completed.
 
 ### Note
--This API is designed to handle SPA, SSR, and PWA websites.
--Make sure to use a valid URL for crawling.
--The default User-Agent header mimics Chrome on Windows. You can change it by providing the `user_agent` parameter in the request.
+- This API is designed to handle SPA, SSR, and PWA websites.
+- Make sure to use a valid URL for crawling.
+- The default User-Agent header mimics Chrome on Windows. You can change it by providing the `user_agent` parameter in the request.
